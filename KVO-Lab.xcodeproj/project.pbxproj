@@ -9,11 +9,13 @@
 /* Begin PBXBuildFile section */
 		63B47531243E2BBA0029FC24 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B47530243E2BBA0029FC24 /* AppDelegate.swift */; };
 		63B47533243E2BBA0029FC24 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B47532243E2BBA0029FC24 /* SceneDelegate.swift */; };
-		63B47535243E2BBA0029FC24 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B47534243E2BBA0029FC24 /* ViewController.swift */; };
+		63B47535243E2BBA0029FC24 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B47534243E2BBA0029FC24 /* MainVC.swift */; };
 		63B47538243E2BBA0029FC24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63B47536243E2BBA0029FC24 /* Main.storyboard */; };
 		63B4753A243E2BC20029FC24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63B47539243E2BC20029FC24 /* Assets.xcassets */; };
 		63B4753D243E2BC20029FC24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63B4753B243E2BC20029FC24 /* LaunchScreen.storyboard */; };
 		63B47548243E2BC30029FC24 /* KVO_LabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B47547243E2BC30029FC24 /* KVO_LabTests.swift */; };
+		63B47553243E2CE30029FC24 /* DepositWithdrawelsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B47552243E2CE30029FC24 /* DepositWithdrawelsVC.swift */; };
+		63B47555243E2CF60029FC24 /* UserInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B47554243E2CF60029FC24 /* UserInfoVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +32,7 @@
 		63B4752D243E2BBA0029FC24 /* KVO-Lab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KVO-Lab.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		63B47530243E2BBA0029FC24 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		63B47532243E2BBA0029FC24 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		63B47534243E2BBA0029FC24 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		63B47534243E2BBA0029FC24 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		63B47537243E2BBA0029FC24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		63B47539243E2BC20029FC24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		63B4753C243E2BC20029FC24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -38,6 +40,8 @@
 		63B47543243E2BC30029FC24 /* KVO-LabTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KVO-LabTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		63B47547243E2BC30029FC24 /* KVO_LabTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KVO_LabTests.swift; sourceTree = "<group>"; };
 		63B47549243E2BC30029FC24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63B47552243E2CE30029FC24 /* DepositWithdrawelsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepositWithdrawelsVC.swift; sourceTree = "<group>"; };
+		63B47554243E2CF60029FC24 /* UserInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +85,9 @@
 			children = (
 				63B47530243E2BBA0029FC24 /* AppDelegate.swift */,
 				63B47532243E2BBA0029FC24 /* SceneDelegate.swift */,
-				63B47534243E2BBA0029FC24 /* ViewController.swift */,
+				63B47534243E2BBA0029FC24 /* MainVC.swift */,
+				63B47552243E2CE30029FC24 /* DepositWithdrawelsVC.swift */,
+				63B47554243E2CF60029FC24 /* UserInfoVC.swift */,
 				63B47536243E2BBA0029FC24 /* Main.storyboard */,
 				63B47539243E2BC20029FC24 /* Assets.xcassets */,
 				63B4753B243E2BC20029FC24 /* LaunchScreen.storyboard */,
@@ -200,9 +206,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63B47535243E2BBA0029FC24 /* ViewController.swift in Sources */,
+				63B47553243E2CE30029FC24 /* DepositWithdrawelsVC.swift in Sources */,
+				63B47535243E2BBA0029FC24 /* MainVC.swift in Sources */,
 				63B47531243E2BBA0029FC24 /* AppDelegate.swift in Sources */,
 				63B47533243E2BBA0029FC24 /* SceneDelegate.swift in Sources */,
+				63B47555243E2CF60029FC24 /* UserInfoVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
